@@ -41,6 +41,9 @@ export default defineConfig({
         ]
       },
       {
+        'text': '学习教程', link: '/docs/course/git'
+      },
+      {
         'text': '建站历程', link: '/docs/vitepress'
       }
     ],
@@ -62,12 +65,12 @@ export default defineConfig({
     //   }
     // ],
 
-    // sidebar: { 
-    //   "/": set_sidebar("/fontcont"),
-    // },
+    sidebar: { 
+      "/": set_sidebar("/docs"),
+    },
 
-    sidebar: false, // 关闭侧边栏
-    aside: "left", // 设置右侧侧边栏在左侧显示
+    // sidebar: false, // 关闭侧边栏
+    // aside: "left", // 设置右侧侧边栏在左侧显示
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
