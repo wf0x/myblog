@@ -74,7 +74,7 @@ export default defineConfig({
     // aside: "left", // 设置右侧侧边栏在左侧显示
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/wf0x' }
     ],
     footer: {
       message: 'Released under the MIT License.',
